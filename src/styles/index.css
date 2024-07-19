@@ -47,13 +47,13 @@ body {
   background-color: #8351fe;
 }
 
-.lista-personagens {
+.card__list {
   width: 330px;
   height: 520px;
   position: relative;
 }
 
-.cartao {
+.card {
   opacity: 0;
   height: 100%;
   position: absolute;
@@ -66,17 +66,17 @@ body {
   justify-content: space-between;
 }
 
-.cartao.selecionado {
+.card--selected {
   opacity: 1;
   z-index: 1;
 }
 
-.cartao .imagem-personagem {
+.card__character-image {
   width: 100%;
   max-height: 280px;
 }
 
-.cartao .nome {
+.card__title {
   background-color: rgba(179, 177, 185, 0.7);
   padding: 8px 10px;
   border-top-left-radius: 10px;
@@ -87,20 +87,20 @@ body {
   letter-spacing: 5px;
 }
 
-.cartao .descricao {
+.card__description {
   background-color: rgba(255, 255, 255, 0.8);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.cartao .descricao .titulo {
+.card__description-title {
   background-color: #333333;
   font-size: 20px;
   color: #ffffff;
   padding: 12px;
 }
 
-.cartao .descricao .texto {
+.card__description-text {
   font-size: 14px;
   padding: 12px;
   text-align: justify;
@@ -108,26 +108,26 @@ body {
   overflow-y: auto;
 }
 
-.cartao.fundo-1 {
+.card__background-image1 {
   background: url("../../public/assets/images/card-background-1.jpg") no-repeat;
 }
 
-.cartao.fundo-2 {
+.card__background-image2 {
   background: url("../../public/assets/images/card-background-2.jpg") no-repeat;
 }
 
-.cartao.fundo-3 {
+.card__background-image3 {
   background: url("../../public/assets/images/card-background-3.jpg") no-repeat;
 }
 
-.cartao.fundo-4 {
+.card__background-image4 {
   background: url("../../public/assets/images/card-background-4.jpg") no-repeat;
 }
 
-.cartao.fundo-5 {
+.card__background-image5 {
   background: url("../../public/assets/images/card-background-5.jpg") no-repeat;
 }
 
-.cartao.fundo-6 {
+.card__background-image6 {
   background: url("../../public/assets/images/card-background-6.jpg") no-repeat;
 }
