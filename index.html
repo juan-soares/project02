@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Juan Carlos" />
-    <meta name="description" content="Explore alguns conceitos de HTML, CSS e JavaScript neste projeto de um slideshow interativo de imagens. Nele, é praticado a manipulação de elementos HTML, estilização com CSS e comportamento dinâmico com JavaScript." />
-    <meta name="keywords" content="HTML, CSS, JavaScript, slider, cards, tecnologia, aprendizado, iniciante" />
+    <meta
+      name="description"
+      content="Explore alguns conceitos de HTML, CSS e JavaScript neste projeto de um slideshow interativo de imagens. Nele, é praticado a manipulação de elementos HTML, estilização com CSS e comportamento dinâmico com JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, slider, cards, tecnologia, aprendizado, iniciante"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +25,149 @@
   </head>
 
   <body>
+    <header class="cabecalho">Web Heroes</header>
+
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img
+          src="./public/assets/images/arrow.png"
+          alt="Ícone de seta, para voltar na imagem anterior."
+        />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Front-End</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-front.jpg"
+            alt="Imagem do personagem Front-End."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Mestre das Interfaces, é responsável por criar telas intuitivas e
+              visualmente cativantes. Equipado com tecnologias como SEO, HTML,
+              CSS e JavaScript, tem a missão de garantir a navegação web bela,
+              acessível e interativa.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao selecionado fundo-2">
+          <h2 class="nome">Back-End</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-backend.jpg"
+            alt="Imagem do personagem Back-End."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Infiltrado dos Bastidores, é responsável por desenvolver sistemas
+              robustos e eficientes. Equipado com tecnologias como PHP, Python,
+              Node.js e SQL, tem a missão de garantir o funcionamento seguro e
+              otimizado dos servidores e bancos de dados, proporcionando uma
+              experiência web estável e escalável.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao selecionado fundo-3">
+          <h2 class="nome">UX</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-ux.jpg"
+            alt="Imagem do personagem UX."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Visionária da Experiência do Usuário (UX), é responsável por criar
+              interfaces atraentes e de fácil compreensão. Equipada com
+              ferramentas de prototipagem, como Figma, Sketch, Adobe XD,
+              InVision, Axure RP e Balsamiq, tem a missão de cativar e manter os
+              usuários na página.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao selecionado fundo-4">
+          <h2 class="nome">Database</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-database.jpg"
+            alt="Imagem do personagem Database."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Detentor da informação, é responsável por desenvolver estruturas
+              de dados concisas e de fácil acesso. Equipado com ferramentas de
+              modelagem como SQL, MongoDB, PostgreSQL, Oracle, tem a missão de
+              organizar e garantir a integridade dos dados armazenados.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao selecionado fundo-5">
+          <h2 class="nome">QA</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-qa.jpg"
+            alt="Imagem do personagem QA."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Justiceira do Controle de Qualidade, é responsável por assegurar a
+              qualidade de produtos e serviços. Equipada com ferramentas de
+              teste como Selenium, Jira, TestRail, tem a missão de garantir a
+              funcionalidade e a confiabilidade dos sistemas, proporcionando uma
+              experiência consistente aos usuários.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao selecionado fundo-6">
+          <h2 class="nome">DevOps</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./public/assets/images/card-character-devops.jpg"
+            alt="Imagem do personagem DevOps."
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Pacificador de Ambientes, é responsável por integrar e automatizar
+              processos de desenvolvimento e operações. Equipado com ferramentas
+              como Docker, Kubernetes, Jenkins, Git, tem a missão de garantir a
+              entrega contínua e confiável de software, otimizando a colaboração
+              entre equipes e melhorando a eficiência operacional.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img
+          src="./public/assets/images/arrow.png"
+          alt="Ícone de seta, para avançar na imagem seguinte."
+        />
+      </button>
+    </main>
 
     <script src="./src/scripts/index.js"></script>
   </body>
