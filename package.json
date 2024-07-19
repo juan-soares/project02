@@ -1,0 +1,11 @@
+{
+  "name": "webpage-technologies-roadmap",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
