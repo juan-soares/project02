@@ -1,4 +1,4 @@
-# 📌 WEBPAGE: CARD SLIDER (HTML, CSS, JS)
+# 📌 WEBPAGE: WEBHEROES CARD SLIDER (HTML, CSS, JS)
 
 ![Badge_Status](https://img.shields.io/badge/STATUS-FINISHED-green)
 ![Badge_Versao](https://img.shields.io/badge/VERSION-1.0-black)
@@ -15,7 +15,7 @@
 
 ## Description
 
-Projeto para prática de conceitos de HTML, CSS e JavaScript. Ele consiste em um slider de imagens em forma de cards, que atualiza as informações do conteúdo, conforme o usuário avança ou retorna ao click de botões. Tem por objetivo aprofundar as habilidades em desenvolvimento web, como a manipulação do DOM e a metodologia BEM.
+Projeto para prática de conceitos de HTML, CSS e JavaScript. Consiste em um slider de imagens em forma de cards, que atualiza as informações do conteúdo, conforme o usuário avança ou retorna ao click de botões. Tem por objetivo aprofundar as habilidades em desenvolvimento web, como a manipulação do DOM e a metodologia BEM.
 
 ## Demo
 
@@ -30,7 +30,7 @@ Projeto para prática de conceitos de HTML, CSS e JavaScript. Ele consiste em um
 - Metodologia BEM,
 - Slider de imagens;
 - Conteúdo dinâmico;
-- Resonsividade.
+- Responsivo.
 
 ## How to use
 
