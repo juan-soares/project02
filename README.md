@@ -19,7 +19,7 @@ Projeto para prática de conceitos de HTML, CSS e JavaScript. Consiste em um sli
 
 ## Demo
 
-![](demo/demo.gif)
+![](demo.gif)
 
 ## Technologies
 
